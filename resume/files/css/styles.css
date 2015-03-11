@@ -130,3 +130,16 @@ header {
 	border:none;
 	margin: 1px 0 0 1px;
 }
+
+
+/* Content */
+
+.left-column,
+.right-column {
+	width: 45%;
+	float: left;
+}
+
+.left-column {
+	margin-right: 10%;
+}
