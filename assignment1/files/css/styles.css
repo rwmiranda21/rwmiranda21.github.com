@@ -74,6 +74,7 @@ a:hover{
 
 .textcontent{
 	padding-top: 30px;
+	width: 33%;
 	text-align: center;
 	margin: auto;
 	font-family: Helvetica;
@@ -102,7 +103,10 @@ a:hover{
 .border{
 	border: 1px solid #d3d3d3;
 	width: 25%;
-	margin: 30px auto;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .lowertext{
