@@ -1,0 +1,136 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: Sans-Serif;
+	line-height: 1.5em;
+}
+
+header {
+	background: #000000;
+	height: 400px;
+}
+
+header h1 {
+	margin: 0;
+	padding-top: 15px;
+}
+
+.main {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 100%;
+}
+
+nav {
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	float: left;
+	width: 230px;
+	margin-left: -100%;
+	background: #eee;
+}
+
+footer {
+	clear: left;
+	width: 100%;
+	background: #000000;
+	text-align: center;
+	padding: 4px 0;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+			
+.content {
+	margin-left: 230px; 
+}
+
+.innertube {
+	margin: 15px; 
+	margin-top: 0;
+}
+
+p {
+	color: #555;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul a {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+.content {
+  width: 940px;
+  background: #ffffff;
+  margin: 50px auto;
+}
+
+.button-wrapper {
+  width: 100%;
+  margin: 0px;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 50px;
+  transition: all 200ms ease-in-out;
+}
+
+.one {
+background: #14BDD1;
+color: #ffffff;
+border-radius: 5px; 
+}
+
+.one:hover {
+  background: #44cddd;
+  box-shadow: 0 5px 20px #aaaaaa;
+}
+
+.two {
+background: #14BDD1;
+color: #ffffff;
+border-radius: 5px; 
+}
+
+.two:hover {
+  background: #44cddd;
+  box-shadow: 0 5px 20px #aaaaaa;
+}
+
+.three {
+background: #14BDD1;
+color: #ffffff;
+border-radius: 5px; 
+}
+
+.three:hover {
+  background: #44cddd;
+  box-shadow: 0 5px 20px #aaaaaa;
+}
+
+.four {
+background: #14BDD1;
+color: #ffffff;
+border-radius: 5px; 
+}
+
+.four:hover {
+  background: #44cddd;
+  box-shadow: 0 5px 20px #aaaaaa;
+}
