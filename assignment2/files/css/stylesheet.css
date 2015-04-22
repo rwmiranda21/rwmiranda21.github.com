@@ -7,7 +7,7 @@ body {
 
 header {
 	background: #000000;
-	height: 400px;
+	height: 450px;
 }
 
 header h1 {
@@ -39,6 +39,11 @@ footer {
 	padding: 4px 0;
 }
 
+.logo{
+	text-align: center;
+	padding-top: 50px;
+	}
+
 .wrapper {
 	overflow: hidden;
 }
@@ -50,6 +55,8 @@ footer {
 .innertube {
 	margin: 15px; 
 	margin-top: 0;
+	width: 100%;
+	position: relative;
 }
 
 p {
@@ -75,13 +82,16 @@ nav ul a {
 
 .button-wrapper {
   width: 100%;
-  margin: 0px;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 20px;
 }
 
 .button {
   width: 150px;
   height: 50px;
-  display: block;
+  display: inline-block;
   text-align: center;
   line-height: 50px;
   font-size: 14px;
@@ -105,7 +115,8 @@ border-radius: 5px;
 .two {
 background: #14BDD1;
 color: #ffffff;
-border-radius: 5px; 
+border-radius: 5px;
+margin-right: 350px; 
 }
 
 .two:hover {

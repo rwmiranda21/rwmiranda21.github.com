@@ -3,11 +3,29 @@
 		<title>Rob Miranda &#124; Assignement 2</title>
 
 		<link rel="stylesheet" type="text/css" href="files/css/stylesheet.css" />
+		<link type="text/css" href="files/flexslider/flexslider.css" rel="stylesheet" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    	<script src="files/flexslider/jquery.flexslider-min.js"></script>
+    	<script src="files/js/utilities.js"></script>
+
+    	<script type="text/javascript" charset="utf-8">
+  			$(window).load(function() {
+    		$('.flexslider').flexslider();
+  			});
+			</script>
+
 	</head>
 
 	<body>
 		<header id="header">
 			<div class="innertube">
+			<div class="button-wrapper">
+				<a class="button one" href="">Concept Art</a>
+		        <a class="button two" href="">3D Models</a>
+		        <a class="button three" href="">Illustration</a>
+		        <a class="button four" href="">Contact</a>
+		      </div>
 				<div class= 'logo'> 
 					<img src="files/img/miranda-concepts-logo.png"alt="Miranda Concepts Logo"/>
 				</div>
@@ -19,28 +37,40 @@
 			<main>
 				<div id="content">
 					<div class="innertube">
-						<h1>Heading</h1>
+						
 					</div>
 				</div>
 
 			</main>
-			
-			<div class="content">
-		      <div class="button-wrapper">
-		        <a class="button one" href="">Concept Art</a>
-		        <a class="button two" href="">3D Models</a>
-		        <a class="button three" href="">Illustration</a>
-		        <a class="button four" href="">Contact</a>
-		      </div>
-		    </div>
+
   </body>
+			
+			<div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="http://pre03.deviantart.net/bdf1/th/pre/i/2015/112/9/5/jurassic_park_compy_keyshot_by_yankeetrex-d8qorm0.jpg" />
+          </li>
+          <li>
+            <img src="http://pre03.deviantart.net/627c/th/pre/i/2015/112/2/9/carnotaurus_kingdom_by_yankeetrex-d8qorx5.jpg" />
+          </li>
+          <li>
+            <img src="http://pre10.deviantart.net/3231/th/pre/i/2015/093/3/5/deep_water_pliosaur_by_yankeetrex-d8o7b1g.jpg" />
+          </li>
+          <li>
+            <img src="http://fc05.deviantart.net/fs70/i/2013/059/2/e/jurassic_park_3_female_raptor_by_yankeetrex-d3io8lk.png" />
+          </li>
+          <li>
+            <img src="http://fc00.deviantart.net/fs70/i/2014/256/5/a/dilophosaurus_by_yankeetrex-d7z33lw.jpg" />
+          </li>
+        </ul>
+      		</div>
 
 		
 		</div>
 		
 		<footer id="footer">
 			<div class="innertube">
-				<p>bottom</p>
+				<p>Copyright: Rob Miranda 2015</p>
 			</div>
 		</footer>
 	
