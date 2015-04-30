@@ -171,6 +171,7 @@ h2 {
 	margin-top: 35px;
 	font-weight: bold;
 	font-size: 22px;
+	margin-bottom: 5px;
 }
 
 .city {
@@ -184,6 +185,7 @@ h2 {
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 24px;
+	margin-bottom: 10px;
 }
 
 .description p,
