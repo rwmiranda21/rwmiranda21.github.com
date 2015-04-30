@@ -43,6 +43,17 @@ footer {
 	text-align: center;
 	padding-top: 50px;
 	}
+.logo img.hover{
+	display: none;
+}
+
+.logo:hover img {
+	display: none;
+}
+
+.logo:hover img.hover{
+	display: inline;
+}
 
 .wrapper {
 	overflow: hidden;
