@@ -58,9 +58,8 @@ a:hover {
 
 /* Header */
 header {
-	margin-bottom: 215px;
+	margin-bottom: 125px;
 	padding-top: 20px;
-	border-top: 5px solid #333333;
 }
 
 .logo {
@@ -89,7 +88,7 @@ header {
 .contact-info,
 .website {
 	float: left;
-	font-size: 12px;
+	font-size: 17px;
 	line-height: 18px;
 	margin-top: -2px;
 }
