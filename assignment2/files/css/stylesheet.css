@@ -42,7 +42,10 @@ footer {
 .logo{
 	text-align: center;
 	padding-top: 50px;
+	width: 300px;
+	margin: 0 auto;
 	}
+	
 .logo img.hover{
 	display: none;
 }
