@@ -146,7 +146,7 @@ header {
 
 .experience,
 .education {
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 
 h2 {
@@ -166,6 +166,12 @@ h2 {
 	line-height: 22px;
 	margin-bottom: 5px;
 	font-weight: bold;
+}
+
+.employer2 {
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 22px;
 }
 
 .city {
